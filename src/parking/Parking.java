@@ -4,7 +4,8 @@ public class Parking {
 	private String name;
 	private String model;
 	private Integer license_plates;
-	
+	private Integer hora;
+	private Integer minuts;
 	
 	public Parking() {
 	}
@@ -33,6 +34,26 @@ public class Parking {
 	public void setLicense_plates(Integer license_plates) {
 		this.license_plates = license_plates;
 	}
+
+	public Integer getHora() {
+		return hora;
+	}
+
+	public void setHora(Integer hora) {
+		this.hora = hora;
+	}
+
+	public Integer getMinuts() {
+		return minuts;
+	}
+
+	public void setMinuts(Integer minuts) {
+		this.minuts = minuts;
+	}
+	
+	
+	
+	
 	
 	
 }

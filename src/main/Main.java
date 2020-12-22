@@ -22,12 +22,12 @@ public class Main {
 		Integer hora;
 		Integer minuts;
 		
+		
+		
 		System.out.println();
 		hora = sc.nextInt();
 		
 		minuts = sc.nextInt();
-		
-//		System.out.printf("time: " + (hora = sc.nextInt()) + ":" + (minuts = sc.nextInt()) );
 		
 		System.out.print("Name: ");
 		name = sc.nextLine();
@@ -37,6 +37,20 @@ public class Main {
 		license_plates = sc.nextInt();
 		
 		Parking parking = new Parking(name, model, license_plates);
+		
+		System.out.println("time");
+		System.out.print("horas: ");
+		hora = sc.nextInt();
+		System.out.print("minuts: ");
+		minuts = sc.nextInt();
+		
+		parking.setHora(hora);
+		parking.setMinuts(minuts);
+		
+		
+		
+		
+		
 		
 		
 		
